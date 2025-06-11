@@ -3,6 +3,12 @@
 ================================
 
 This project uses the Ultralytics YOLOv8n model to detect and classify animals in images using a custom dataset.
+💡 Notes
+--------
+- This project is configured for CPU-only training. For GPU training, change device='cpu' to device=0.
+- To use large files (>100 MB), consider using Git LFS.
+- For large datasets or trained models, you can also use Hugging Face to store them.
+
 
 📁 Dataset
 ----------
