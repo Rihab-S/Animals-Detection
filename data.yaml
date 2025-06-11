@@ -1,6 +1,6 @@
-train: C:/Users/21654/Desktop/animals_detection/animal_detection/yolo_data/animals_train
-val: C:/Users/21654/Desktop/animals_detection/animal_detection/yolo_data/animals_val
-nc: 90
+train: # add your path for data_train
+val: # add your path for data_validation
+nc: 90 #You can change it if you use a larger dataset. Our dataset contains 90 animals.
 names:
   - antelope
   - badger
